@@ -22,4 +22,25 @@ public class PostmanTest {
         Assert.assertEquals(id, 1);
 
     }
+    private static String URL2 = "https://reqres.in/api/login";
+
+    @Test
+    public void postManTesting2() {
+        Response response = given().when().body("{\n" +
+                        "    \"email\": \"eve.holt@reqres.in\",\n" +
+                        "    \"password\": \"cityslicka\"\n" +
+                        "}").
+        contentType("application/json")
+                .post(URL2 );
+
+
+        System.out.println("Hello API Testing"+response.getBody().prettyPrint());
+        JsonPath jsonPath = new JsonPath(response.getBody().prettyPrint());
+        String token = jsonPath.getString("token");
+        Assert.assertNotNull(token);
+
+
+
+    }
 }
+
