@@ -38,9 +38,32 @@ public class PostmanTest {
         JsonPath jsonPath = new JsonPath(response.getBody().prettyPrint());
         String token = jsonPath.getString("token");
         Assert.assertNotNull(token);
+    }
+    private static String URL3 = "https://reqres.in/api/users";
+
+    @Test
+    public void postManTesting3() {
+        Response response = given().when().body("{\n" +
+                        "    \"name\": \"morpheus\",\n" +
+                        "    \"job\": \"leader\"\n" +
+                        "}").
+                contentType("application/json")
+                .post(URL3 );
 
 
+        System.out.println("Hello API Testing"+response.getBody().prettyPrint());
+        JsonPath jsonPath = new JsonPath(response.getBody().prettyPrint());
+        String token = jsonPath.getString("name");
+        Assert.assertEquals(token,"morpheus");
+
+        String job = jsonPath.getString("job");
+        Assert.assertEquals(job,"leader");
+
+        String id = jsonPath.getString("id");
+        Assert.assertNotNull(token);
+        String createdAt = jsonPath.getString("createdAt");
+        Assert.assertNotNull(createdAt);
+    }
 
     }
-}
 
