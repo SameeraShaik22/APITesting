@@ -53,14 +53,16 @@ public class PostmanTest {
 
         System.out.println("Hello API Testing"+response.getBody().prettyPrint());
         JsonPath jsonPath = new JsonPath(response.getBody().prettyPrint());
-        String token = jsonPath.getString("name");
-        Assert.assertEquals(token,"morpheus");
+
+        String name = jsonPath.getString("name");
+        Assert.assertEquals(name,"morpheus");
 
         String job = jsonPath.getString("job");
         Assert.assertEquals(job,"leader");
 
         String id = jsonPath.getString("id");
-        Assert.assertNotNull(token);
+        Assert.assertNotNull(id);
+
         String createdAt = jsonPath.getString("createdAt");
         Assert.assertNotNull(createdAt);
     }

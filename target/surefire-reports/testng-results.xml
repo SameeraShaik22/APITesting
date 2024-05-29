@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-29T10:27:36 CDT" name="Suite" finished-at="2024-05-29T10:27:48 CDT" duration-ms="11564">
+  <suite started-at="2024-05-29T10:34:10 CDT" name="Suite" finished-at="2024-05-29T10:34:22 CDT" duration-ms="12157">
     <groups>
     </groups>
-    <test started-at="2024-05-29T10:27:36 CDT" name="Test" finished-at="2024-05-29T10:27:48 CDT" duration-ms="11564">
+    <test started-at="2024-05-29T10:34:10 CDT" name="Test" finished-at="2024-05-29T10:34:22 CDT" duration-ms="12157">
       <class name="PostmanTest">
-        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-05-29T10:27:36 CDT" name="postManTesting" finished-at="2024-05-29T10:27:46 CDT" duration-ms="9886" status="PASS">
+        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@5af5def9]" started-at="2024-05-29T10:34:10 CDT" name="postManTesting" finished-at="2024-05-29T10:34:20 CDT" duration-ms="10127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting -->
-        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-05-29T10:27:46 CDT" name="postManTesting2" finished-at="2024-05-29T10:27:47 CDT" duration-ms="844" status="PASS">
+        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@5af5def9]" started-at="2024-05-29T10:34:20 CDT" name="postManTesting2" finished-at="2024-05-29T10:34:21 CDT" duration-ms="1070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting2 -->
-        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-05-29T10:27:47 CDT" name="postManTesting3" finished-at="2024-05-29T10:27:48 CDT" duration-ms="432" status="PASS">
+        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@5af5def9]" started-at="2024-05-29T10:34:21 CDT" name="postManTesting3" finished-at="2024-05-29T10:34:22 CDT" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting3 -->
