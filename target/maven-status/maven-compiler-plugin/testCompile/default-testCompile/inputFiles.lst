@@ -1,9 +1,11 @@
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\CreateBooking.java
+C:\adil\rest-api-testing-using-RestAssured\src\test\java\DBTesting.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\PostmanTest.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\UpdateBooking.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\DeleteBooking.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\GetBooking.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\utility\BaseTest.java
+C:\adil\rest-api-testing-using-RestAssured\src\test\java\ConnectionClass.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\CrudTest.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\AuthToken.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\PartialUpdateBooking.java
