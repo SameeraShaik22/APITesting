@@ -10,7 +10,8 @@
 <!--       <class name="PartialUpdateBooking"/>-->
 <!--       <class name="DeleteBooking"/>         -->
 <!--        -->
-        <class name="PostmanTest"/>
+        <class name="CrudTest"/>
+      <class name="PostmanTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

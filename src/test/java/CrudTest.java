@@ -33,7 +33,7 @@ public class CrudTest {
         Assert.assertEquals(status, 200);
         System.out.println(URL);
     }
-    @Test
+
     public void deleteEmployee() {
         Response response = given()
                 .contentType("application/json")

@@ -2,40 +2,42 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-01T09:16:28 CDT" name="Suite" finished-at="2024-06-01T09:16:32 CDT" duration-ms="4630">
+  <suite started-at="2024-06-01T09:39:25 CDT" name="Suite" finished-at="2024-06-01T09:39:30 CDT" duration-ms="4905">
     <groups>
     </groups>
-    <test started-at="2024-06-01T09:16:28 CDT" name="Test" finished-at="2024-06-01T09:16:32 CDT" duration-ms="4630">
+    <test started-at="2024-06-01T09:39:25 CDT" name="Test" finished-at="2024-06-01T09:39:30 CDT" duration-ms="4905">
       <class name="PostmanTest">
-        <test-method signature="Create()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:28 CDT" name="Create" finished-at="2024-06-01T09:16:31 CDT" duration-ms="3167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create -->
-        <test-method signature="CreateAndDelete()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:31 CDT" name="CreateAndDelete" finished-at="2024-06-01T09:16:31 CDT" duration-ms="95" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateAndDelete -->
-        <test-method signature="CreateAndUpdate()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:31 CDT" name="CreateAndUpdate" finished-at="2024-06-01T09:16:31 CDT" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateAndUpdate -->
-        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:31 CDT" name="postManTesting" finished-at="2024-06-01T09:16:32 CDT" duration-ms="264" status="PASS">
+        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@15deb1dc]" started-at="2024-06-01T09:39:29 CDT" name="postManTesting" finished-at="2024-06-01T09:39:29 CDT" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting -->
-        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:32 CDT" name="postManTesting2" finished-at="2024-06-01T09:16:32 CDT" duration-ms="386" status="PASS">
+        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@15deb1dc]" started-at="2024-06-01T09:39:29 CDT" name="postManTesting2" finished-at="2024-06-01T09:39:30 CDT" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting2 -->
-        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:32 CDT" name="postManTesting3" finished-at="2024-06-01T09:16:32 CDT" duration-ms="361" status="PASS">
+        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@15deb1dc]" started-at="2024-06-01T09:39:30 CDT" name="postManTesting3" finished-at="2024-06-01T09:39:30 CDT" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting3 -->
-        <test-method signature="retriveTest()[pri:0, instance:PostmanTest@323e8306]" started-at="2024-06-01T09:16:32 CDT" name="retriveTest" finished-at="2024-06-01T09:16:32 CDT" duration-ms="86" status="PASS">
+      </class> <!-- PostmanTest -->
+      <class name="CrudTest">
+        <test-method signature="Create()[pri:0, instance:CrudTest@24b52d3e]" started-at="2024-06-01T09:39:25 CDT" name="Create" finished-at="2024-06-01T09:39:29 CDT" duration-ms="3434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+        <test-method signature="CreateAndDelete()[pri:0, instance:CrudTest@24b52d3e]" started-at="2024-06-01T09:39:29 CDT" name="CreateAndDelete" finished-at="2024-06-01T09:39:29 CDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndDelete -->
+        <test-method signature="CreateAndUpdate()[pri:0, instance:CrudTest@24b52d3e]" started-at="2024-06-01T09:39:29 CDT" name="CreateAndUpdate" finished-at="2024-06-01T09:39:29 CDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndUpdate -->
+        <test-method signature="retriveTest()[pri:0, instance:CrudTest@24b52d3e]" started-at="2024-06-01T09:39:29 CDT" name="retriveTest" finished-at="2024-06-01T09:39:29 CDT" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retriveTest -->
-      </class> <!-- PostmanTest -->
+      </class> <!-- CrudTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
