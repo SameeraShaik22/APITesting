@@ -3,15 +3,26 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <!-- <class name="POST_test"/> -->
-<!--       <class name="GetBooking"/>     -->
-<!--       <class name="CreateBooking"/> -->
-<!--       <class name="UpdateBooking"/> -->
-<!--       <class name="PartialUpdateBooking"/>-->
-<!--       <class name="DeleteBooking"/>         -->
-<!--        -->
+
         <class name="CrudTest"/>
       <class name="PostmanTest"/>
+      <class name="AugustTesting.NewAPITest"></class>
+      <class name="AugustTesting.UserAPI"></class>
     </classes>
   </test> <!-- Test -->
+  <test name = "test1">
+
+    <parameter name = "myName" value="manisha"/>
+
+    <classes>
+      <class name = "ParameterizedTesting" />
+    </classes>
+
+  </test>
+
 </suite> <!-- Suite -->
+
+
+
+
+

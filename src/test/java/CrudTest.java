@@ -107,11 +107,36 @@ public class CrudTest {
         System.out.println(afterSize+"************After ID*******");
 
         Assert.assertEquals(beforeSize+1,afterSize);
-
-
-
     }
 
+    @Test
+    public void createMoreCrud() {
 
 
+        Response response = given().when().body("{\n" +
+                        "    \"employeeName\":\"Tibbals Schools\",\n" +
+                        "    \"employeeSalary\":1000\n" +
+                        "}").
+                contentType("application/json").post(URL);
+
+        JsonPath jsonPath=new JsonPath(response.getBody().prettyPrint());
+        int getId=jsonPath.getInt("employeeId");
+
+        System.out.println(response.getBody().prettyPrint());
+       Response deleteResponse= given().delete(URL+getId);
+        System.out.println(deleteResponse+" Deleted");
+    }
+
+@Test
+    public void create(){
+        Response response=given().when().body("{\n" +
+                "    \"employeeName\":\"CooperJunior Schools\",\n" +
+                "    \"employeeSalary\":1000\n" +
+                "}").contentType("application/json")
+                .post(URL);
+    System.out.println(response.getBody().prettyPrint());
+    JsonPath jsonPath = new JsonPath(response.getBody().prettyPrint());
+    int employeeId = jsonPath.getInt("employeeId");
+    Assert.assertNotNull(employeeId);
+}
 }

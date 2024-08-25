@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-03T08:59:40 CDT" name="Suite" finished-at="2024-06-03T08:59:47 CDT" duration-ms="6286">
+  <suite started-at="2024-08-24T23:26:35 CDT" name="Suite" finished-at="2024-08-24T23:26:41 CDT" duration-ms="5171">
     <groups>
     </groups>
-    <test started-at="2024-06-03T08:59:40 CDT" name="Test" finished-at="2024-06-03T08:59:47 CDT" duration-ms="6286">
-      <class name="CrudTest">
-        <test-method signature="afterRetrieveCrud()[pri:0, instance:CrudTest@47a64f7d]" started-at="2024-06-03T08:59:40 CDT" name="afterRetrieveCrud" finished-at="2024-06-03T08:59:45 CDT" duration-ms="4350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterRetrieveCrud -->
-        <test-method signature="createAnddeleteCrud()[pri:0, instance:CrudTest@47a64f7d]" started-at="2024-06-03T08:59:45 CDT" name="createAnddeleteCrud" finished-at="2024-06-03T08:59:45 CDT" duration-ms="472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAnddeleteCrud -->
-        <test-method signature="createCrud()[pri:0, instance:CrudTest@47a64f7d]" started-at="2024-06-03T08:59:45 CDT" name="createCrud" finished-at="2024-06-03T08:59:45 CDT" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createCrud -->
-        <test-method signature="updateCrud()[pri:0, instance:CrudTest@47a64f7d]" started-at="2024-06-03T08:59:45 CDT" name="updateCrud" finished-at="2024-06-03T08:59:45 CDT" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateCrud -->
-      </class> <!-- CrudTest -->
+    <test started-at="2024-08-24T23:26:35 CDT" name="Test" finished-at="2024-08-24T23:26:41 CDT" duration-ms="5132">
       <class name="PostmanTest">
-        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@33d05366]" started-at="2024-06-03T08:59:45 CDT" name="postManTesting" finished-at="2024-06-03T08:59:46 CDT" duration-ms="307" status="PASS">
+        <test-method signature="postManTesting()[pri:0, instance:PostmanTest@5aa360ea]" started-at="2024-08-24T23:26:39 CDT" name="postManTesting" finished-at="2024-08-24T23:26:40 CDT" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting -->
-        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@33d05366]" started-at="2024-06-03T08:59:46 CDT" name="postManTesting2" finished-at="2024-06-03T08:59:46 CDT" duration-ms="365" status="PASS">
+        <test-method signature="postManTesting2()[pri:0, instance:PostmanTest@5aa360ea]" started-at="2024-08-24T23:26:40 CDT" name="postManTesting2" finished-at="2024-08-24T23:26:40 CDT" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting2 -->
-        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@33d05366]" started-at="2024-06-03T08:59:46 CDT" name="postManTesting3" finished-at="2024-06-03T08:59:47 CDT" duration-ms="415" status="PASS">
+        <test-method signature="postManTesting3()[pri:0, instance:PostmanTest@5aa360ea]" started-at="2024-08-24T23:26:40 CDT" name="postManTesting3" finished-at="2024-08-24T23:26:41 CDT" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postManTesting3 -->
       </class> <!-- PostmanTest -->
+      <class name="CrudTest">
+        <test-method signature="afterRetrieveCrud()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:36 CDT" name="afterRetrieveCrud" finished-at="2024-08-24T23:26:39 CDT" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRetrieveCrud -->
+        <test-method signature="create()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:39 CDT" name="create" finished-at="2024-08-24T23:26:39 CDT" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="createAnddeleteCrud()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:39 CDT" name="createAnddeleteCrud" finished-at="2024-08-24T23:26:39 CDT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnddeleteCrud -->
+        <test-method signature="createCrud()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:39 CDT" name="createCrud" finished-at="2024-08-24T23:26:39 CDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCrud -->
+        <test-method signature="createMoreCrud()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:39 CDT" name="createMoreCrud" finished-at="2024-08-24T23:26:39 CDT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMoreCrud -->
+        <test-method signature="updateCrud()[pri:0, instance:CrudTest@79c4715d]" started-at="2024-08-24T23:26:39 CDT" name="updateCrud" finished-at="2024-08-24T23:26:39 CDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCrud -->
+      </class> <!-- CrudTest -->
+      <class name="AugustTesting.NewAPITest">
+        <test-method signature="checkThomas()[pri:0, instance:AugustTesting.NewAPITest@6548bb7d]" started-at="2024-08-24T23:26:41 CDT" name="checkThomas" finished-at="2024-08-24T23:26:41 CDT" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThomas -->
+        <test-method signature="employee()[pri:0, instance:AugustTesting.NewAPITest@6548bb7d]" started-at="2024-08-24T23:26:41 CDT" name="employee" finished-at="2024-08-24T23:26:41 CDT" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employee -->
+      </class> <!-- AugustTesting.NewAPITest -->
     </test> <!-- Test -->
+    <test started-at="2024-08-24T23:26:41 CDT" name="test1" finished-at="2024-08-24T23:26:41 CDT" duration-ms="1">
+    </test> <!-- test1 -->
   </suite> <!-- Suite -->
 </testng-results>
