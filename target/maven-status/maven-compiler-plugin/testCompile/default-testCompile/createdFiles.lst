@@ -1,8 +1,9 @@
-AugustTesting\UserAPI.class
+devtesting\UserAPI.class
 utility\PostmanTestDupe.class
-AugustTesting\NewAPITest.class
 ParameterizedTesting.class
 ConnectionClass.class
 CrudTest.class
+devtesting\ParamTest.class
 DBTesting.class
 PostmanTest.class
+devtesting\NewAPITest.class

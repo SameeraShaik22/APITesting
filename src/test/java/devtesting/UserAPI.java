@@ -1,23 +1,22 @@
-package AugustTesting;
+package devtesting;
 
 import io.restassured.path.json.JsonPath;
-import io.restassured.path.json.mapping.JsonPathObjectDeserializer;
 import io.restassured.response.Response;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import org.springframework.context.annotation.Profile;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utility.PrimeNumberChecker;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 import static io.restassured.RestAssured.given;
 
+@Profile("dev")
 public class UserAPI {
 
     private static String URL = "https://jsonplaceholder.typicode.com/todos/";

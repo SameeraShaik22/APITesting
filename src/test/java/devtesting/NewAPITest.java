@@ -1,4 +1,4 @@
-package AugustTesting;
+package devtesting;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -6,15 +6,10 @@ import org.apache.commons.io.IOUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Profile;
-import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -23,6 +18,7 @@ import java.nio.charset.StandardCharsets;
 import static io.restassured.RestAssured.given;
 
 @SpringBootTest
+@Profile("dev")
 public class NewAPITest {
     private static String URl="http://localhost:8085/employee";
 

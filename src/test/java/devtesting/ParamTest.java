@@ -1,11 +1,12 @@
-package AugustTesting;
+package devtesting;
 
+import org.springframework.context.annotation.Profile;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utility.PrimeNumberChecker;
-
+@Profile("dev")
 public class ParamTest {
     private PrimeNumberChecker primeNumberChecker;
 

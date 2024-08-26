@@ -6,8 +6,8 @@
 
         <class name="CrudTest"/>
       <class name="PostmanTest"/>
-      <class name="AugustTesting.NewAPITest"></class>
-      <class name="AugustTesting.UserAPI"></class>
+      <class name="devtesting.NewAPITest"></class>
+      <class name="devtesting.UserAPI"></class>
     </classes>
   </test> <!-- Test -->
   <test name = "test1">

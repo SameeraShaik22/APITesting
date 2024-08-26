@@ -1,12 +1,12 @@
-C:\adil\rest-api-testing-using-RestAssured\src\test\java\AugustTesting\NewAPITest.java
-C:\adil\rest-api-testing-using-RestAssured\src\test\java\AugustTesting\ParamTest.java
-C:\adil\rest-api-testing-using-RestAssured\src\test\java\AugustTesting\UserAPI.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\AuthToken.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\ConnectionClass.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\CreateBooking.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\CrudTest.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\DBTesting.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\DeleteBooking.java
+C:\adil\rest-api-testing-using-RestAssured\src\test\java\devtesting\NewAPITest.java
+C:\adil\rest-api-testing-using-RestAssured\src\test\java\devtesting\ParamTest.java
+C:\adil\rest-api-testing-using-RestAssured\src\test\java\devtesting\UserAPI.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\GetBooking.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\ParameterizedTesting.java
 C:\adil\rest-api-testing-using-RestAssured\src\test\java\PartialUpdateBooking.java
