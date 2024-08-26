@@ -5,10 +5,12 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.sessionId;
 
+@SpringBootTest
 public class PostmanTestDupe {
     private static String URL = "https://jsonplaceholder.typicode.com/todos/";
     private static String URL2 = "https://reqres.in/api/login";
